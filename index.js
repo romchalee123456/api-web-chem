@@ -1,5 +1,5 @@
 import express from 'express';
-const bodyParser = require("body-parser");
+import bodyParser from "body-parser";
 const app = express();
 const port = process.env.PORT || 3000;
 
